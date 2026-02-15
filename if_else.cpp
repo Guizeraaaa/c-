@@ -23,7 +23,7 @@
   //      cout << "Aluno Reprovado\n";
   //  }
 
-  if(media < 2.5 ) {
+  /*if(media < 2.5 ) {
     cout << "Nota final foi D\n";
   } else if (media < 5)
   {
@@ -34,7 +34,22 @@
   }
   else{
     cout << "Nota final foi A\n";
-  }
+  }*/
+ 
+  float freq; 
+
+  cout << "qual a frequencia do aluno?\n";
+  cin >> freq;
+
+ /*if (media <5 || freq <75)
+  {
+    cout << "Aluno Reprovado!\n";
+    }
+  else{
+    cout << "Aluno aprovado";
+  } */
+
+  (freq >= 75) ? cout << "Aprovado" : cout << "Reprovado"; 
   
   
 
