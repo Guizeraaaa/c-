@@ -13,8 +13,7 @@ cout << " valor da variavel através do nome " << var1 << endl;
 cout << "Endereco armazenado no ponteiro " << ponteiro1 << endl;
 cout  << "valor da variavel, atraves do ponteiro " << *ponteiro1 <<endl;
 
-int var2;
-var2 = *ponteiro1; 
+//var2 = *ponteiro1; 
 
 //var1 = 30;
 //*ponteiro1 = 30;
