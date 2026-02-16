@@ -11,18 +11,18 @@ void mensagempotencia() {
 
 int main(){
     
-    float base, potencia, n, resultado;
+    float base, potencia, n, resultado=1;
     mensagemBase();
     cin >> base;
 
     mensagempotencia();
     cin >> potencia;
 
-    for (int i=1; i <= potencia; i++ ){
+    for (int i=0; i < potencia; i++ ){
              resultado = base * base;
-             n = resultado * base;
+             
     }
     
-    cout << "o resultado e de: " << n << endl;
+    cout << "o resultado e de: " << resultado << endl;
     return 0;
 }

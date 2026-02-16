@@ -21,3 +21,4 @@ cout << "O resultado é de: " << fatorial << endl;
 
     return 0;
 }
+ 
