@@ -30,7 +30,7 @@ int tamanho;
 cout << "Digite o tamanho do vetor" << endl;
    cin >> tamanho;
 
-   int* vetor = new int[tamanho];
+  // int* vetor = new int[tamanho];
 
  for (int i=0 ; i < tamanho; i++) {
     cout << "Digite o elemten" << i+1 << "do vetor" << endl;
