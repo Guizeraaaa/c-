@@ -23,7 +23,7 @@ soma += vetor[i];
 
 result = soma / 2;
 
-cout << "A soma das medias das idades e: " << soma << " anos de idade" << endl;
+cout << "A s medias das idades e: " << result << " anos de idade" << endl;
 
 
     return 0;
